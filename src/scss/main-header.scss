@@ -1,0 +1,16 @@
+.main-header {
+    height: 300px;
+    padding: 5px;
+}
+.notice {
+    font-size: 0.9em;
+}
+
+@media screen and(max-width: 480px) {
+    .main-header h2 {
+        font-size: 1.5em;
+    }
+    .main-header p {
+        font-size: 0.7em;
+    }
+}

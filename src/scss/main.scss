@@ -1,0 +1,34 @@
+.list-category a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #0f0;
+}
+
+.game-container {
+    width: 1200px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1220px) {
+    .game-container {
+        width: 100%;
+        padding: 0px;
+    }
+    .game-description {
+       margin: 0 auto;
+
+        width: 80%;
+    }
+}
+@media screen and(max-width: 650px) {
+    .category-container {
+        width: 100%;
+    }
+}
+@media screen and(max-width: 480px) {
+    .main-container h3 {
+        font-size: 1.3em;
+    }
+    .main-container p, .main-container a {
+        font-size: 0.7em;
+    }
+}
